@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3{
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: 10px 0;
+    padding: 8px 16px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(70, 67, 67, 0.2);
+}
+/* HEADER */
+header{
+    padding: 10px 0;
+    background-color: #fff;
+    color: black;
+    width: 100%;
+}
+.navbar{
+    display: block;
+}
+.navbar ul{
+    list-style: none;
+}
+.navbar li{
+    display: inline;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.header__content{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__content p, .navbar li{
+    letter-spacing: 3px;
+    font-size: 1rem;
+    padding: 8px 16px;
+    border: none;
+}
+.header__content p span{
+    font-weight: 700;
+}
+.header__content p:hover, .navbar li:hover{
+    background-color: rgba(94, 88, 88, 0.712);
+}
+.header__img{
+   background: url(../img/architect.jpg); 
+   background-size: cover;
+   height: 800px;
+   margin: 5px 0;
+   text-align: center;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.header__img p{
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.842);
+    
+}
+.header__img p span{
+    width: 15px;
+    height: 15px;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.575);
+    padding: 8px 16px;
+}
+/* PROJECT */
+.project{
+    padding: 8px 16px;
+}
+/* .project h3{
+    line-height: 40px;
+    border-bottom: 1px solid rgba(70, 67, 67, 0.2);
+} */
+
+.project__content{
+    margin: 10px 0;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;  
+    padding: 16px 0;
+}
+.project__item{
+    position: relative;
+}
+.project__item img{
+    display: block;
+    width: 100%;
+}
+.project__item p{
+    display: inline;
+    font-size: 1rem;
+    padding: 8px 16px;
+    color: #fff;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* ABOUT */
+.about{
+    padding: 8px 32px;
+}
+.about h3{
+    margin: 16px 0;
+    padding: 10px 0;
+}
+.about p{
+    margin: 15px 0;
+}
+.about__content{
+    margin: 20px 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.about__item{
+    margin: 0 0 16px;
+}
+.about__item img{
+    width: 100%;
+} 
+.about__item h3{
+    border: none;
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.about__item p:first-of-type{
+    opacity: 0.6;
+}
+.about__item p{
+    margin: 15px 0;
+}
+.about__item button{
+    padding: 8px 16px;
+    width: 100%;
+    background-color: #f1f1f1f1;
+    color: #000;
+    border: none;
+    font-size: 1rem;
+}
+
+/* CONTACT */
+.contact{
+    margin: 30px auto;
+    padding: 8px 32px;
+}
+.contact p{
+    margin: 15px 0;
+}
+.contact form input{
+    width: 100%;
+    padding: 8px;
+    display: block;
+    margin: 16px 0;
+    font-size: 1rem;
+    border: 1px solid #141313b6;
+    border-radius: 3px;
+}
+.contact form button{
+    color: #fff;
+    background-color: #000;
+    font-size: 1rem;
+    margin: 16px 0;
+    padding: 8px 16px;
+}
+/* FOOTER */
+.footer__img img{
+    width: 100%;
+    background-size: cover;
+    padding: 0 20px;
+}
+.footer__content{
+    background-color: #000;
+    color: #fff;
+    font-size: 1rem;
+    text-align: center;
+    padding: 32px 0;
+}
+.footer__content p span{
+    text-decoration: underline;
+    color: #ff0e83;
+}
